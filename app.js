@@ -85,8 +85,7 @@ function partyMode() {
 }
 
 function updatePartyModeLabel() {
-  const mode = partyMode();
-  partyModeLabelEl.textContent = mode === 'democrat-only' ? 'Democrat' : mode === 'republican-only' ? 'Republican' : 'Both';
+  partyModeLabelEl.textContent = 'both';
 }
 
 function partyPass(party) {
