@@ -129,28 +129,15 @@ function createDot(lat, lon, party, radius, popupHtml, extraClass = '') {
   const color = partyColor(party);
   const className = `${party === 'Republican' ? 'party-dot-rep' : 'party-dot-dem'} ${extraClass}`.trim();
 
-  const core = L.circleMarker([lat, lon], {
+  return L.circleMarker([lat, lon], {
     radius,
     color,
     fillColor: color,
-    fillOpacity: 0.94,
-    weight: 2,
-    opacity: 1,
+    fillOpacity: 0.95,
+    weight: 0,
+    opacity: 0,
     className
-  });
-
-  const ring = L.circleMarker([lat, lon], {
-    radius: radius + 3.6,
-    color,
-    fillOpacity: 0,
-    weight: 1.8,
-    opacity: 0.95,
-    dashArray: '2 6',
-    lineCap: 'round',
-    className: `${className} orbital-ring`
-  });
-
-  return L.featureGroup([ring, core]).bindPopup(popupHtml);
+  }).bindPopup(popupHtml);
 }
 
 function formatName(person) {
