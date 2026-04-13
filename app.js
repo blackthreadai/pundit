@@ -85,7 +85,7 @@ function partyMode() {
 }
 
 function updatePartyModeLabel() {
-  partyModeLabelEl.textContent = 'both';
+  partyModeLabelEl.textContent = 'Both';
 }
 
 function partyPass(party) {
