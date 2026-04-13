@@ -3,14 +3,19 @@ Pundit (MVP)
 US-only congressional map inspired by OpenGridWorks layout style.
 
 Current features:
-- Dark dashboard-style map UI
+- Dark futuristic dashboard-style map UI
+- Floating overlay sidebar (on top of map)
 - Layers: House, Senate
 - Party dots: Blue = Democrat, Red = Republican
-- Dot popups with member name + chamber + state/district
-- US-focused bounds and zoom
+- Glow + orbital ring marker style
+- Dot popups with member card (name, chamber, party, district)
+- US-focused bounds and tighter default zoom
+- Visible state outlines
 
-Data source:
-- https://unitedstates.github.io/congress-legislators/legislators-current.json
+Data sources:
+- Members: https://unitedstates.github.io/congress-legislators/legislators-current.json
+- District centroids: U.S. Census TIGERweb Legislative MapServer (119th Congressional Districts)
+- State outlines: https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json
 
 Run locally:
 1. In repo root:

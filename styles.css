@@ -166,7 +166,7 @@ input[type='checkbox'] {
 }
 
 .leaflet-tile {
-  filter: saturate(1.25) hue-rotate(5deg) brightness(0.82) contrast(1.12);
+  filter: saturate(1.2) hue-rotate(4deg) brightness(0.9) contrast(1.13);
 }
 
 .leaflet-popup-content-wrapper,
@@ -183,6 +183,67 @@ input[type='checkbox'] {
 
 .party-dot-rep {
   filter: drop-shadow(0 0 3px rgba(255, 59, 48, 0.95)) drop-shadow(0 0 10px rgba(255, 59, 48, 0.7));
+}
+
+.orbital-ring {
+  filter: drop-shadow(0 0 9px rgba(127, 233, 255, 0.36));
+}
+
+.leaflet-top.leaflet-right {
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.leaflet-control-zoom {
+  border: 1px solid rgba(103, 201, 255, 0.42) !important;
+  box-shadow: 0 0 14px rgba(59, 170, 221, 0.28);
+}
+
+.leaflet-control-zoom a {
+  background: rgba(6, 16, 29, 0.88) !important;
+  color: #bde8ff !important;
+  border-bottom: 1px solid rgba(103, 201, 255, 0.25) !important;
+}
+
+.popup-card {
+  min-width: 220px;
+}
+
+.popup-name {
+  font-weight: 700;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.popup-meta {
+  color: #9eb4ce;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.popup-party {
+  display: inline-block;
+  font-size: 11px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-bottom: 7px;
+}
+
+.popup-party.party-dem {
+  color: #dbe9ff;
+  background: rgba(47, 125, 255, 0.25);
+  border: 1px solid rgba(47, 125, 255, 0.65);
+}
+
+.popup-party.party-rep {
+  color: #ffe3e0;
+  background: rgba(255, 59, 48, 0.23);
+  border: 1px solid rgba(255, 59, 48, 0.65);
+}
+
+.popup-id {
+  font-size: 11px;
+  color: #7f98b3;
 }
 
 @media (max-width: 900px) {

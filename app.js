@@ -1,4 +1,6 @@
 const CONGRESS_URL = 'https://unitedstates.github.io/congress-legislators/legislators-current.json';
+const DISTRICT_CENTROIDS_URL = 'https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0/query?where=1%3D1&outFields=STATE%2CCD119%2CCENTLAT%2CCENTLON%2CCDTYP&returnGeometry=false&f=pjson';
+const STATES_GEOJSON_URL = 'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json';
 
 const STATE_CENTROIDS = {
   AL: [32.806671, -86.79113], AK: [61.370716, -152.404419], AZ: [33.729759, -111.431221],
@@ -20,14 +22,25 @@ const STATE_CENTROIDS = {
   WI: [44.268543, -89.616508], WY: [42.755966, -107.30249], DC: [38.9072, -77.0369]
 };
 
+const STATE_TO_FIPS = {
+  AL: '01', AK: '02', AZ: '04', AR: '05', CA: '06', CO: '08', CT: '09', DE: '10', FL: '12',
+  GA: '13', HI: '15', ID: '16', IL: '17', IN: '18', IA: '19', KS: '20', KY: '21', LA: '22',
+  ME: '23', MD: '24', MA: '25', MI: '26', MN: '27', MS: '28', MO: '29', MT: '30', NE: '31',
+  NV: '32', NH: '33', NJ: '34', NM: '35', NY: '36', NC: '37', ND: '38', OH: '39', OK: '40',
+  OR: '41', PA: '42', RI: '44', SC: '45', SD: '46', TN: '47', TX: '48', UT: '49', VT: '50',
+  VA: '51', WA: '53', WV: '54', WI: '55', WY: '56', DC: '11'
+};
+
 const map = L.map('map', {
-  zoomControl: true,
+  zoomControl: false,
   minZoom: 3,
   maxZoom: 9,
   maxBounds: [[22, -128], [52, -64]],
   maxBoundsViscosity: 1.0,
   zoomSnap: 0.5
 }).setView([39.3, -98.4], 5);
+
+L.control.zoom({ position: 'topright' }).addTo(map);
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &copy; CARTO',
@@ -38,15 +51,13 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png'
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {
   subdomains: 'abcd',
   maxZoom: 20,
-  opacity: 0.82,
+  opacity: 0.86,
   pane: 'overlayPane'
 }).addTo(map);
 
 const houseLayer = L.layerGroup().addTo(map);
 const senateLayer = L.layerGroup().addTo(map);
 const statusEl = document.getElementById('status');
-
-const stateDistrictCounters = {};
 
 function normalizeParty(party) {
   if (!party) return 'Democrat';
@@ -68,11 +79,11 @@ function currentTerm(legislator) {
 }
 
 function senateOffset(index) {
-  if (index % 2 === 0) return [-0.28, 0.12];
-  return [0.28, -0.12];
+  if (index % 2 === 0) return [-0.32, 0.14];
+  return [0.32, -0.14];
 }
 
-function houseOffset(districtNumber) {
+function houseFallbackOffset(districtNumber) {
   const n = Number.isFinite(districtNumber) ? districtNumber : 1;
   const golden = 2.3999632297;
   const angle = n * golden;
@@ -82,19 +93,41 @@ function houseOffset(districtNumber) {
   return [lonOffset, latOffset];
 }
 
+function districtKey(stateAbbr, districtRaw) {
+  const fips = STATE_TO_FIPS[stateAbbr];
+  if (!fips) return null;
+
+  const n = Number.parseInt(String(districtRaw ?? '0'), 10);
+  const district = Number.isNaN(n) ? '00' : String(n).padStart(2, '0');
+  return `${fips}-${district}`;
+}
+
 function createDot(lat, lon, party, radius, popupHtml) {
   const color = partyColor(party);
   const className = party === 'Republican' ? 'party-dot-rep' : 'party-dot-dem';
 
-  return L.circleMarker([lat, lon], {
+  const core = L.circleMarker([lat, lon], {
     radius,
     color,
     fillColor: color,
-    fillOpacity: 0.96,
-    weight: 1.2,
+    fillOpacity: 0.94,
+    weight: 2,
     opacity: 1,
     className
-  }).bindPopup(popupHtml);
+  });
+
+  const ring = L.circleMarker([lat, lon], {
+    radius: radius + 3.6,
+    color,
+    fillOpacity: 0,
+    weight: 1.8,
+    opacity: 0.95,
+    dashArray: '2 6',
+    lineCap: 'round',
+    className: `${className} orbital-ring`
+  });
+
+  return L.featureGroup([ring, core]).bindPopup(popupHtml);
 }
 
 function formatName(person) {
@@ -109,34 +142,85 @@ function shouldShowParty(party) {
   return false;
 }
 
-function rebuildLayers(members) {
+function parseDistrictCentroids(payload) {
+  const mapCentroids = new Map();
+
+  (payload.features || []).forEach((f) => {
+    const a = f.attributes || {};
+    if ((a.CDTYP || '').toUpperCase() !== 'O') return;
+
+    const state = String(a.STATE || '').padStart(2, '0');
+    const cd = String(a.CD119 || '00').padStart(2, '0');
+    const lat = Number(String(a.CENTLAT || '').replace('+', ''));
+    const lon = Number(String(a.CENTLON || '').replace('+', ''));
+
+    if (Number.isFinite(lat) && Number.isFinite(lon)) {
+      mapCentroids.set(`${state}-${cd}`, [lat, lon]);
+    }
+  });
+
+  return mapCentroids;
+}
+
+function buildPopup(member, chamberLabel, locationLabel, party) {
+  const person = member.person;
+  const fullName = formatName(person);
+  const bioId = person.bioguideid || 'n/a';
+
+  return `
+    <div class="popup-card">
+      <div class="popup-name">${fullName}</div>
+      <div class="popup-meta">${chamberLabel} • ${locationLabel}</div>
+      <div class="popup-party ${party === 'Republican' ? 'party-rep' : 'party-dem'}">${party}</div>
+      <div class="popup-id">BioGuide: ${bioId}</div>
+    </div>
+  `;
+}
+
+async function addStateOutlineLayer() {
+  const response = await fetch(STATES_GEOJSON_URL);
+  if (!response.ok) throw new Error(`State outlines failed: HTTP ${response.status}`);
+  const geojson = await response.json();
+
+  L.geoJSON(geojson, {
+    style: {
+      color: '#7edcff',
+      weight: 1.2,
+      opacity: 0.62,
+      fillOpacity: 0
+    },
+    interactive: false
+  }).addTo(map);
+}
+
+function rebuildLayers(members, districtCentroids) {
   houseLayer.clearLayers();
   senateLayer.clearLayers();
 
-  Object.keys(stateDistrictCounters).forEach((k) => delete stateDistrictCounters[k]);
+  const senateCounterByState = {};
 
   let houseCount = 0;
   let senateCount = 0;
 
-  members.forEach(({ person, term, party }) => {
+  members.forEach((member) => {
+    const { term, party } = member;
     const state = term.state;
     if (!STATE_CENTROIDS[state]) return;
     if (!shouldShowParty(party)) return;
 
-    const [baseLat, baseLon] = STATE_CENTROIDS[state];
-
     if (term.type === 'sen') {
+      const [baseLat, baseLon] = STATE_CENTROIDS[state];
       const key = `${state}-sen`;
-      const idx = stateDistrictCounters[key] || 0;
-      stateDistrictCounters[key] = idx + 1;
-
+      const idx = senateCounterByState[key] || 0;
+      senateCounterByState[key] = idx + 1;
       const [lonOff, latOff] = senateOffset(idx);
+
       const marker = createDot(
         baseLat + latOff,
         baseLon + lonOff,
         party,
-        6,
-        `<strong>${formatName(person)}</strong><br/>Senate • ${state}<br/>${party}`
+        5.8,
+        buildPopup(member, 'United States Senate', state, party)
       );
       senateLayer.addLayer(marker);
       senateCount += 1;
@@ -144,15 +228,27 @@ function rebuildLayers(members) {
     }
 
     if (term.type === 'rep') {
-      const district = Number.parseInt(term.district || '1', 10);
-      const [lonOff, latOff] = houseOffset(district);
+      const district = Number.parseInt(term.district || '0', 10);
+      const key = districtKey(state, district);
+      let lat;
+      let lon;
+
+      if (key && districtCentroids.has(key)) {
+        [lat, lon] = districtCentroids.get(key);
+      } else {
+        const [baseLat, baseLon] = STATE_CENTROIDS[state];
+        const [lonOff, latOff] = houseFallbackOffset(district || 1);
+        lat = baseLat + latOff;
+        lon = baseLon + lonOff;
+      }
+
       const labelDistrict = district === 0 ? 'At-Large' : `District ${district}`;
       const marker = createDot(
-        baseLat + latOff,
-        baseLon + lonOff,
+        lat,
+        lon,
         party,
-        4.5,
-        `<strong>${formatName(person)}</strong><br/>House • ${state} ${labelDistrict}<br/>${party}`
+        4.2,
+        buildPopup(member, 'U.S. House of Representatives', `${state} ${labelDistrict}`, party)
       );
       houseLayer.addLayer(marker);
       houseCount += 1;
@@ -172,15 +268,29 @@ function rebuildLayers(members) {
 
 async function init() {
   try {
-    const response = await fetch(CONGRESS_URL);
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    statusEl.textContent = 'Loading congressional + district data...';
 
-    const raw = await response.json();
-    const members = raw
+    const [congressRes, districtRes] = await Promise.all([
+      fetch(CONGRESS_URL),
+      fetch(DISTRICT_CENTROIDS_URL)
+    ]);
+
+    if (!congressRes.ok) throw new Error(`Congress data HTTP ${congressRes.status}`);
+    if (!districtRes.ok) throw new Error(`District data HTTP ${districtRes.status}`);
+
+    const [rawCongress, districtPayload] = await Promise.all([
+      congressRes.json(),
+      districtRes.json()
+    ]);
+
+    const districtCentroids = parseDistrictCentroids(districtPayload);
+
+    const members = rawCongress
       .map((legislator) => {
         const term = currentTerm(legislator);
         if (!term) return null;
         if (!['rep', 'sen'].includes(term.type)) return null;
+        if (!STATE_CENTROIDS[term.state]) return null;
 
         return {
           person: legislator.name,
@@ -188,13 +298,13 @@ async function init() {
           party: normalizeParty(term.party)
         };
       })
-      .filter(Boolean)
-      .filter((m) => Boolean(STATE_CENTROIDS[m.term.state]));
+      .filter(Boolean);
 
-    rebuildLayers(members);
+    await addStateOutlineLayer();
+    rebuildLayers(members, districtCentroids);
 
     ['toggle-house', 'toggle-senate', 'toggle-dem', 'toggle-rep'].forEach((id) => {
-      document.getElementById(id).addEventListener('change', () => rebuildLayers(members));
+      document.getElementById(id).addEventListener('change', () => rebuildLayers(members, districtCentroids));
     });
   } catch (err) {
     console.error(err);
