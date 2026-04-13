@@ -79,27 +79,13 @@ body,
   padding: 14px;
   backdrop-filter: blur(12px);
 
-  scrollbar-width: thin;
-  scrollbar-color: rgba(86, 196, 255, 0.55) transparent;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .panel::-webkit-scrollbar {
-  width: 8px;
-}
-
-.panel::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.panel::-webkit-scrollbar-thumb {
-  border-radius: 999px;
-  border: 1px solid rgba(143, 222, 255, 0.45);
-  background: linear-gradient(180deg, rgba(57, 177, 238, 0.6), rgba(30, 105, 162, 0.68));
-  box-shadow: 0 0 10px rgba(82, 194, 255, 0.28);
-}
-
-.panel::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, rgba(88, 204, 255, 0.72), rgba(43, 126, 192, 0.78));
+  width: 0;
+  height: 0;
 }
 
 .brand {
@@ -143,6 +129,37 @@ body,
   font-size: 13px;
   color: #bfd8f4;
   letter-spacing: 0.25px;
+}
+
+.collapsible > summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collapsible > summary::-webkit-details-marker {
+  display: none;
+}
+
+.collapsible > summary h3 {
+  margin: 0;
+}
+
+.collapsible > summary::after {
+  content: '▾';
+  color: #9fc7ea;
+  font-size: 14px;
+  transition: transform 0.18s ease;
+}
+
+.collapsible:not([open]) > summary::after {
+  transform: rotate(-90deg);
+}
+
+.collapsible > .content {
+  margin-top: 8px;
 }
 
 label {
@@ -277,6 +294,16 @@ input[type='checkbox'] {
 
 .popup-card {
   min-width: 220px;
+}
+
+.popup-photo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(151, 197, 236, 0.45);
+  margin-bottom: 8px;
+  box-shadow: 0 0 12px rgba(74, 161, 224, 0.3);
 }
 
 .popup-name {

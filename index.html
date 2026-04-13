@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pundit Map</title>
+    <title>POLI·TICKS</title>
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -18,49 +18,59 @@
         <div class="brand">POLI·TICKS <span class="beta">BETA</span></div>
         <div class="subtitle"><em>latin. from poly (many) and ticks (blood sucking insects).</em></div>
 
-        <section class="control-block">
-          <h3>PARTY FILTER</h3>
-          <div class="party-scale-labels">
-            <span>Democrat</span>
-            <span id="party-mode-label">Both</span>
-            <span>Republican</span>
+        <details class="control-block collapsible" open>
+          <summary><h3>PARTY FILTER</h3></summary>
+          <div class="content">
+            <div class="party-scale-labels">
+              <span>Democrat</span>
+              <span id="party-mode-label">Both</span>
+              <span>Republican</span>
+            </div>
+            <input id="party-slider" class="party-slider" type="range" min="0" max="2" step="1" value="1" />
           </div>
-          <input id="party-slider" class="party-slider" type="range" min="0" max="2" step="1" value="1" />
-        </section>
+        </details>
 
-        <section class="control-block">
-          <h3>POLITICIANS</h3>
-          <label><input type="checkbox" id="toggle-house" checked /> House of Representatives</label>
-          <label><input type="checkbox" id="toggle-senate" checked /> United States Senate</label>
-          <label><input type="checkbox" id="toggle-governors" checked /> State Governors</label>
-        </section>
+        <details class="control-block collapsible" open>
+          <summary><h3>POLITICIANS</h3></summary>
+          <div class="content">
+            <label><input type="checkbox" id="toggle-house" checked /> House of Representatives</label>
+            <label><input type="checkbox" id="toggle-senate" checked /> United States Senate</label>
+            <label><input type="checkbox" id="toggle-governors" checked /> State Governors</label>
+          </div>
+        </details>
 
-        <section class="control-block">
-          <h3>OUR GREATEST ALLIES</h3>
-          <label><input type="checkbox" id="watch-visited-israel" /> Has Visited Israel</label>
-          <label><input type="checkbox" id="watch-kiss-the-wall" /> Kissed The Wall</label>
-          <label><input type="checkbox" id="watch-funded-aipac" /> Funded By AIPAC</label>
-        </section>
+        <details class="control-block collapsible">
+          <summary><h3>OUR GREATEST ALLIES</h3></summary>
+          <div class="content">
+            <label><input type="checkbox" id="watch-visited-israel" /> Has Visited Israel</label>
+            <label><input type="checkbox" id="watch-kiss-the-wall" /> Kissed The Wall</label>
+            <label><input type="checkbox" id="watch-funded-aipac" /> Funded By AIPAC</label>
+          </div>
+        </details>
 
-        <section class="control-block">
-          <h3>RELIGION</h3>
-          <label><input type="checkbox" id="religion-christian" /> Christian</label>
-          <label><input type="checkbox" id="religion-muslim" /> Muslim</label>
-          <label><input type="checkbox" id="religion-jewish" /> Jewish</label>
-          <label><input type="checkbox" id="religion-non-religious" /> Non-Religious</label>
-        </section>
+        <details class="control-block collapsible">
+          <summary><h3>RELIGION</h3></summary>
+          <div class="content">
+            <label><input type="checkbox" id="religion-christian" /> Christian</label>
+            <label><input type="checkbox" id="religion-muslim" /> Muslim</label>
+            <label><input type="checkbox" id="religion-jewish" /> Jewish</label>
+            <label><input type="checkbox" id="religion-non-religious" /> Non-Religious</label>
+          </div>
+        </details>
 
-        <section class="control-block">
-          <h3>ETHNICITY</h3>
-          <label><input type="checkbox" id="ethnicity-white" /> White</label>
-          <label><input type="checkbox" id="ethnicity-black" /> Black / African American</label>
-          <label><input type="checkbox" id="ethnicity-hispanic" /> Hispanic / Latino</label>
-          <label><input type="checkbox" id="ethnicity-asian" /> Asian</label>
-          <label><input type="checkbox" id="ethnicity-native" /> Native American / Alaska Native</label>
-          <label><input type="checkbox" id="ethnicity-mena" /> Middle Eastern / North African</label>
-          <label><input type="checkbox" id="ethnicity-pacific" /> Native Hawaiian / Pacific Islander</label>
-          <label><input type="checkbox" id="ethnicity-multiracial" /> Multiracial / Other</label>
-        </section>
+        <details class="control-block collapsible">
+          <summary><h3>ETHNICITY</h3></summary>
+          <div class="content">
+            <label><input type="checkbox" id="ethnicity-white" /> White</label>
+            <label><input type="checkbox" id="ethnicity-black" /> Black / African American</label>
+            <label><input type="checkbox" id="ethnicity-hispanic" /> Hispanic / Latino</label>
+            <label><input type="checkbox" id="ethnicity-asian" /> Asian</label>
+            <label><input type="checkbox" id="ethnicity-native" /> Native American / Alaska Native</label>
+            <label><input type="checkbox" id="ethnicity-mena" /> Middle Eastern / North African</label>
+            <label><input type="checkbox" id="ethnicity-pacific" /> Native Hawaiian / Pacific Islander</label>
+            <label><input type="checkbox" id="ethnicity-multiracial" /> Multiracial / Other</label>
+          </div>
+        </details>
 
         <div class="status" id="status">Loading congressional + governors data...</div>
       </aside>
