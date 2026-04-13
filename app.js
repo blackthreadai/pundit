@@ -27,12 +27,19 @@ const map = L.map('map', {
   maxBounds: [[22, -128], [52, -64]],
   maxBoundsViscosity: 1.0,
   zoomSnap: 0.5
-}).setView([39.3, -98.4], 4);
+}).setView([39.3, -98.4], 5);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &copy; CARTO',
   subdomains: 'abcd',
   maxZoom: 20
+}).addTo(map);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {
+  subdomains: 'abcd',
+  maxZoom: 20,
+  opacity: 0.82,
+  pane: 'overlayPane'
 }).addTo(map);
 
 const houseLayer = L.layerGroup().addTo(map);
@@ -76,12 +83,17 @@ function houseOffset(districtNumber) {
 }
 
 function createDot(lat, lon, party, radius, popupHtml) {
+  const color = partyColor(party);
+  const className = party === 'Republican' ? 'party-dot-rep' : 'party-dot-dem';
+
   return L.circleMarker([lat, lon], {
     radius,
-    color: partyColor(party),
-    fillColor: partyColor(party),
-    fillOpacity: 0.9,
-    weight: 1
+    color,
+    fillColor: color,
+    fillOpacity: 0.96,
+    weight: 1.2,
+    opacity: 1,
+    className
   }).bindPopup(popupHtml);
 }
 
