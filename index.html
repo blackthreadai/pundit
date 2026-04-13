@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pundit Map</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <aside class="panel">
+        <div class="brand">Pundit <span class="beta">BETA</span></div>
+        <p class="subtitle">US Congress map • House + Senate</p>
+
+        <section class="control-block">
+          <h3>Layers</h3>
+          <label><input type="checkbox" id="toggle-house" checked /> House</label>
+          <label><input type="checkbox" id="toggle-senate" checked /> Senate</label>
+        </section>
+
+        <section class="control-block">
+          <h3>Party</h3>
+          <label><input type="checkbox" id="toggle-dem" checked /> <span class="dot blue"></span> Democrat</label>
+          <label><input type="checkbox" id="toggle-rep" checked /> <span class="dot red"></span> Republican</label>
+        </section>
+
+        <section class="control-block legend">
+          <h3>Dot Meaning</h3>
+          <p>Each dot = 1 current member of Congress.</p>
+          <p>House dots are positioned by state + district index for this MVP.</p>
+        </section>
+
+        <div class="status" id="status">Loading congressional data...</div>
+      </aside>
+
+      <main id="map" aria-label="United States congressional map"></main>
+    </div>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
