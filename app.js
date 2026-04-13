@@ -2,6 +2,7 @@ const CONGRESS_URL = 'https://unitedstates.github.io/congress-legislators/legisl
 const DISTRICT_CENTROIDS_URL = 'https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0/query?where=1%3D1&outFields=STATE%2CCD119%2CCENTLAT%2CCENTLON%2CCDTYP&returnGeometry=false&f=pjson';
 const STATES_GEOJSON_URL = 'https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json';
 const GOVERNORS_URL = './data/governors.json';
+const ATTRIBUTES_URL = './data/politician_attributes.json';
 
 const STATE_CENTROIDS = {
   AL: [32.806671, -86.79113], AK: [61.370716, -152.404419], AZ: [33.729759, -111.431221],
@@ -63,6 +64,24 @@ const statusEl = document.getElementById('status');
 const partySliderEl = document.getElementById('party-slider');
 const partyModeLabelEl = document.getElementById('party-mode-label');
 
+const RELIGION_FILTERS = [
+  { id: 'religion-christian', value: 'Christian' },
+  { id: 'religion-muslim', value: 'Muslim' },
+  { id: 'religion-jewish', value: 'Jewish' },
+  { id: 'religion-non-religious', value: 'Non-Religious' }
+];
+
+const ETHNICITY_FILTERS = [
+  { id: 'ethnicity-white', value: 'White' },
+  { id: 'ethnicity-black', value: 'Black / African American' },
+  { id: 'ethnicity-hispanic', value: 'Hispanic / Latino' },
+  { id: 'ethnicity-asian', value: 'Asian' },
+  { id: 'ethnicity-native', value: 'Native American / Alaska Native' },
+  { id: 'ethnicity-mena', value: 'Middle Eastern / North African' },
+  { id: 'ethnicity-pacific', value: 'Native Hawaiian / Pacific Islander' },
+  { id: 'ethnicity-multiracial', value: 'Multiracial / Other' }
+];
+
 function normalizeParty(party) {
   if (!party) return 'Other';
   const p = party.toLowerCase();
@@ -94,6 +113,22 @@ function partyPass(party) {
   if (mode === 'democrat-only') return party === 'Democrat';
   if (mode === 'republican-only') return party === 'Republican';
   return true;
+}
+
+function selectedFilterValues(defs) {
+  return defs.filter((d) => document.getElementById(d.id)?.checked).map((d) => d.value);
+}
+
+function attributePass(profile, selectedValues, field) {
+  if (selectedValues.length === 0) return true;
+  const values = Array.isArray(profile?.[field]) ? profile[field] : [];
+  if (values.length === 0) return false;
+  return values.some((v) => selectedValues.includes(v));
+}
+
+function attrLabel(profile, field) {
+  const values = Array.isArray(profile?.[field]) ? profile[field] : [];
+  return values.length ? values.join(', ') : 'Unknown';
 }
 
 function currentTerm(legislator) {
@@ -200,12 +235,14 @@ async function addStateOutlineLayer() {
   }).addTo(map);
 }
 
-function rebuildLayers(members, districtCentroids, governors) {
+function rebuildLayers(members, districtCentroids, governors, attributes) {
   houseLayer.clearLayers();
   senateLayer.clearLayers();
   governorsLayer.clearLayers();
 
   const senateCounterByState = {};
+  const selectedReligions = selectedFilterValues(RELIGION_FILTERS);
+  const selectedEthnicities = selectedFilterValues(ETHNICITY_FILTERS);
   let houseCount = 0;
   let senateCount = 0;
   let governorCount = 0;
@@ -214,6 +251,10 @@ function rebuildLayers(members, districtCentroids, governors) {
     const { term, party, bioguideId } = member;
     const state = term.state;
     if (!STATE_CENTROIDS[state] || !partyPass(party)) return;
+
+    const profile = attributes?.congress?.[bioguideId] || {};
+    if (!attributePass(profile, selectedReligions, 'religion')) return;
+    if (!attributePass(profile, selectedEthnicities, 'ethnicity')) return;
 
     if (term.type === 'sen') {
       const [baseLat, baseLon] = STATE_CENTROIDS[state];
@@ -233,7 +274,7 @@ function rebuildLayers(members, districtCentroids, governors) {
           office: 'United States Senate',
           locationLabel: state,
           party,
-          extra: `BioGuide: ${bioguideId || 'n/a'}`,
+          extra: `BioGuide: ${bioguideId || 'n/a'}<br/>Religion: ${attrLabel(profile, 'religion')}<br/>Ethnicity: ${attrLabel(profile, 'ethnicity')}`,
           photoUrl: congressPhotoUrl(bioguideId)
         })
       ));
@@ -268,7 +309,7 @@ function rebuildLayers(members, districtCentroids, governors) {
           office: 'U.S. House of Representatives',
           locationLabel: `${state} ${districtLabel}`,
           party,
-          extra: `BioGuide: ${bioguideId || 'n/a'}`,
+          extra: `BioGuide: ${bioguideId || 'n/a'}<br/>Religion: ${attrLabel(profile, 'religion')}<br/>Ethnicity: ${attrLabel(profile, 'ethnicity')}`,
           photoUrl: congressPhotoUrl(bioguideId)
         })
       ));
@@ -279,6 +320,10 @@ function rebuildLayers(members, districtCentroids, governors) {
   governors.forEach((gov) => {
     const party = normalizeParty(gov.party);
     if (!partyPass(party)) return;
+
+    const profile = attributes?.governors?.[gov.state_abbr] || {};
+    if (!attributePass(profile, selectedReligions, 'religion')) return;
+    if (!attributePass(profile, selectedEthnicities, 'ethnicity')) return;
 
     const center = STATE_CENTROIDS[gov.state_abbr];
     if (!center) return;
@@ -294,7 +339,7 @@ function rebuildLayers(members, districtCentroids, governors) {
         office: 'State Governor',
         locationLabel: `${gov.state} (${gov.state_abbr})`,
         party,
-        extra: `In office since: ${gov.start_date || 'n/a'}`,
+        extra: `In office since: ${gov.start_date || 'n/a'}<br/>Religion: ${attrLabel(profile, 'religion')}<br/>Ethnicity: ${attrLabel(profile, 'ethnicity')}`,
         photoUrl: ''
       }),
       'gov-dot'
@@ -320,24 +365,31 @@ async function init() {
   try {
     statusEl.textContent = 'Loading congressional + governors data...';
 
-    const [congressRes, districtRes, governorsRes] = await Promise.all([
+    const [congressRes, districtRes, governorsRes, attributesRes] = await Promise.all([
       fetch(CONGRESS_URL),
       fetch(DISTRICT_CENTROIDS_URL),
-      fetch(GOVERNORS_URL)
+      fetch(GOVERNORS_URL),
+      fetch(ATTRIBUTES_URL)
     ]);
 
     if (!congressRes.ok) throw new Error(`Congress data HTTP ${congressRes.status}`);
     if (!districtRes.ok) throw new Error(`District data HTTP ${districtRes.status}`);
     if (!governorsRes.ok) throw new Error(`Governors data HTTP ${governorsRes.status}`);
+    if (!attributesRes.ok) throw new Error(`Attributes data HTTP ${attributesRes.status}`);
 
-    const [rawCongress, districtPayload, governorsPayload] = await Promise.all([
+    const [rawCongress, districtPayload, governorsPayload, attributesPayload] = await Promise.all([
       congressRes.json(),
       districtRes.json(),
-      governorsRes.json()
+      governorsRes.json(),
+      attributesRes.json()
     ]);
 
     const districtCentroids = parseDistrictCentroids(districtPayload);
     const governors = Array.isArray(governorsPayload.governors) ? governorsPayload.governors : [];
+    const attributes = {
+      congress: attributesPayload?.congress || {},
+      governors: attributesPayload?.governors || {}
+    };
 
     const members = rawCongress
       .map((legislator) => {
@@ -354,15 +406,20 @@ async function init() {
 
     await addStateOutlineLayer();
     updatePartyModeLabel();
-    rebuildLayers(members, districtCentroids, governors);
+    rebuildLayers(members, districtCentroids, governors, attributes);
 
     ['toggle-house', 'toggle-senate', 'toggle-governors'].forEach((id) => {
-      document.getElementById(id).addEventListener('change', () => rebuildLayers(members, districtCentroids, governors));
+      document.getElementById(id).addEventListener('change', () => rebuildLayers(members, districtCentroids, governors, attributes));
+    });
+
+    [...RELIGION_FILTERS, ...ETHNICITY_FILTERS].forEach(({ id }) => {
+      const el = document.getElementById(id);
+      if (el) el.addEventListener('change', () => rebuildLayers(members, districtCentroids, governors, attributes));
     });
 
     partySliderEl.addEventListener('input', () => {
       updatePartyModeLabel();
-      rebuildLayers(members, districtCentroids, governors);
+      rebuildLayers(members, districtCentroids, governors, attributes);
     });
   } catch (err) {
     console.error(err);

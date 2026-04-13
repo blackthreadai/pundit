@@ -1,0 +1,4503 @@
+{
+  "generated_at": "2026-04-13T23:10:27.285610Z",
+  "source": "Wikidata live SPARQL (P1157/P140/P172)",
+  "congress_count_input": 538,
+  "congress_count_mapped": 536,
+  "governor_states_mapped": 50,
+  "congress": {
+    "M001153": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001217": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000034": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "P000597": {
+      "religion_raw": [
+        "Evangelical Lutheran Church in America"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001225": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001227": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001099": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000553": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001199": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000617": {
+      "religion_raw": [
+        "United Methodist Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "T000488": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000829": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000610": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000487": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000173": {
+      "religion_raw": [
+        "Islam"
+      ],
+      "ethnicity_raw": [
+        "Benadiri people",
+        "Somali American"
+      ],
+      "religion": [
+        "Muslim"
+      ],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "D000624": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000629": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001047": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001220": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001243": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000086": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "A000382": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000596": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001177": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000483": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001137": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001278": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000477": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000601": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000359": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001130": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "K000391": {
+      "religion_raw": [
+        "Hinduism"
+      ],
+      "ethnicity_raw": [
+        "Tamil Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "M001215": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001053": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000617": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000571": {
+      "religion_raw": [
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "G000546": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001240": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000032": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "B001301": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001100": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001111": {
+      "religion_raw": [
+        "Catholic Church",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "N000190": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000817": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [
+        "White Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "White"
+      ]
+    },
+    "H001068": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000626": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "N000026": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001225": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000577": {
+      "religion_raw": [
+        "The Church of Jesus Christ of Latter-day Saints"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001220": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001302": {
+      "religion_raw": [
+        "Mormonism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001102": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001090": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000802": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "E000299": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000230": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001317": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000800": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "K000393": {
+      "religion_raw": [
+        "Methodism",
+        "United Methodist Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001095": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000822": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "W000437": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "E000301": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000583": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001327": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001216": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000177": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000446": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000460": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "B000825": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001115": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000193": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "E000295": {
+      "religion_raw": [
+        "Evangelical Lutheran Church in America",
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "T000476": {
+      "religion_raw": [
+        "Catholicism",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001095": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001094": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "E000300": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001257": {
+      "religion_raw": [
+        "Greek Orthodoxy"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000454": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001227": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "L000595": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000593": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001223": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000797": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "R000621": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001076": {
+      "religion_raw": [
+        "United Church of Christ"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "K000402": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001210": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001136": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001237": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S000185": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001211": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000055": {
+      "religion_raw": [
+        "United Methodist Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "B001298": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001066": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001221": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001137": {
+      "religion_raw": [
+        "African Methodist Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "L000585": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000592": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001230": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000476": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000403": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001224": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001163": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000128": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001188": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001129": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000606": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000480": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000288": {
+      "religion_raw": [
+        "Buddhism",
+        "Soka Gakkai"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "M001219": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000216": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "F000475": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000463": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001196": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001160": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "E000296": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001226": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001189": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000821": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B000740": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000096": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "K000392": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "S001194": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "L000593": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001063": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001067": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001188": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000804": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001213": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001211": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S000344": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "K000394": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [
+        "Korean Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Asian"
+      ]
+    },
+    "P000608": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001035": {
+      "religion_raw": [
+        "Catholicism",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001091": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001241": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000558": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C000880": {
+      "religion_raw": [
+        "Mormonism",
+        "The Church of Jesus Christ of Latter-day Saints"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "G000597": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001285": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000576": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000530": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000133": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "N000189": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001113": {
+      "religion_raw": [
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001096": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001319": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001116": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000570": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000798": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001091": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001157": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "W000809": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000469": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001169": {
+      "religion_raw": [
+        "heresy"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000148": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000581": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001261": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001120": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001212": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001181": {
+      "religion_raw": [
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001195": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001287": {
+      "religion_raw": [
+        "Unitarian Universalism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "N000147": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "M001136": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001244": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000608": {
+      "religion_raw": [
+        "Reform Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "F000468": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001101": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001093": {
+      "religion_raw": [
+        "Restorationism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000599": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000398": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "I000058": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "Y000067": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "B001236": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "F000484": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001085": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000605": {
+      "religion_raw": [
+        "Catholic Church",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "P000613": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001232": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001110": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000610": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S000522": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "W000795": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "G000565": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000468": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000620": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "E000246": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000176": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "Y000064": {
+      "religion_raw": [
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001075": {
+      "religion_raw": [
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "R000606": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001118": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000790": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "S001208": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "T000469": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001132": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000174": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "Jewish people"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "H001089": {
+      "religion_raw": [
+        "Evangelical Presbyterian Church",
+        "Evangelicalism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001061": {
+      "religion_raw": [
+        "Catholicism",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "K000399": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "Z000018": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "A000369": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001215": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001159": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "F000480": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001103": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001208": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "N000188": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001296": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001104": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001068": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001309": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "F000466": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000310": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001321": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001218": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000607": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001314": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H000273": {
+      "religion_raw": [
+        "Quakers"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001184": {
+      "religion_raw": [
+        "Evangelicalism",
+        "Protestant church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "B001323": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001199": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000603": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "K000375": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000805": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001193": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000583": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000197": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "R000614": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001047": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "J000295": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001205": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000595": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "R000600": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000614": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000298": {
+      "religion_raw": [
+        "Hinduism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000385": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "L000597": {
+      "religion_raw": [
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H000874": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "E000071": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000474": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001176": {
+      "religion_raw": [
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "F000470": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000600": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000560": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000467": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000377": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "R000395": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "G000591": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M000317": {
+      "religion_raw": [
+        "Greek Orthodoxy"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000816": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000603": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001055": {
+      "religion_raw": [
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001194": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001245": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000603": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000605": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000603": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "E000294": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000602": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001200": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S000929": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000631": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000138": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001230": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001086": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000122": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001131": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001079": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "W000806": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "A000370": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "B001306": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000557": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001101": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000367": {
+      "religion_raw": [
+        "Congregational churches"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000175": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000555": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "N000002": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [
+        "American Jews"
+      ],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "C001125": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001322": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000273": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001098": {
+      "religion_raw": [
+        "non-denominational"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001326": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001229": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "T000490": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000463": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001216": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001300": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000048": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000594": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000600": {
+      "religion_raw": [
+        "nondenominational Christianity"
+      ],
+      "ethnicity_raw": [
+        "Mexican Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Hispanic / Latino"
+      ]
+    },
+    "P000197": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [
+        "Italian Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "B001267": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001235": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000814": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000293": {
+      "religion_raw": [
+        "Lutheranism",
+        "Wisconsin Evangelical Lutheran Synod"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "R000575": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001176": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000622": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001231": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000302": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000110": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000389": {
+      "religion_raw": [
+        "Hinduism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000566": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001117": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000472": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001281": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000479": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001234": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000559": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C000537": {
+      "religion_raw": [
+        "African Methodist Episcopal Church"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "N000191": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000311": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000246": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001229": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000375": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001088": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "L000397": {
+      "religion_raw": [
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001096": {
+      "religion_raw": [
+        "Pentecostalism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001112": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000145": {
+      "religion_raw": [
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001145": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "Q000023": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000301": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001226": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "Cuban Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Hispanic / Latino"
+      ]
+    },
+    "S001214": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "P000621": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000831": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B000668": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001058": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001066": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B000490": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "B001325": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001108": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001214": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000019": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000401": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001318": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001114": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000404": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001218": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001098": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "T000486": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000830": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000609": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001206": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001150": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "T000472": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000129": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001056": {
+      "religion_raw": [
+        "Church of Christ",
+        "United Church of Christ"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "G000574": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001077": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000383": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001052": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001291": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000386": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001232": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S000033": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [
+        "American Jews"
+      ],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "C001072": {
+      "religion_raw": [
+        "Islam"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [
+        "Muslim"
+      ],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "G000594": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000568": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S000510": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "W000808": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000081": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001069": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "G000599": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001059": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001236": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001260": {
+      "religion_raw": [
+        "Christianity"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001127": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000131": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000309": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000400": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000616": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001242": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "Colombian Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "L000607": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000383": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001080": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000605": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M000133": {
+      "religion_raw": [
+        "Catholic Church",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "K000384": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "L000582": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000604": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001183": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000135": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000587": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H000601": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001228": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000379": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001239": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "E000298": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000491": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001233": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000474": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000307": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C000127": {
+      "religion_raw": [
+        "Catholic Church",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001061": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "S001148": {
+      "religion_raw": [
+        "Mormonism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001121": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001119": {
+      "religion_raw": [
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "N000015": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001238": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001198": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000304": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000134": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001103": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001313": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000478": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000405": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S000250": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000305": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000372": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001042": {
+      "religion_raw": [
+        "Buddhism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000590": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001198": {
+      "religion_raw": [
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "T000478": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000618": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "A000381": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000618": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "F000459": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "E000297": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001282": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000139": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001067": {
+      "religion_raw": [
+        "Episcopal Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "D000563": {
+      "religion_raw": [
+        "Catholic Church",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001143": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "D000634": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001277": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "B001243": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "B001305": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000294": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "D000399": {
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001123": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000589": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000623": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001230": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001203": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000491": {
+      "religion_raw": [
+        "Buddhism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001190": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001051": {
+      "religion_raw": [
+        "Christianity"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001224": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "N000193": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000612": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000628": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001299": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001217": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000165": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001222": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000779": {
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "H001072": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "H001082": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000481": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000187": {
+      "religion_raw": [
+        "Christianity"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "R000599": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "O000172": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "D000617": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000579": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000598": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M000194": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "I000056": {
+      "religion_raw": [
+        "Eastern Orthodox Patriarchate of Antioch"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000388": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000584": {
+      "religion_raw": [
+        "Catholicism",
+        "Roman Catholic"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "C001126": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001228": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001133": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001201": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "E000235": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "C001087": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001156": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M000355": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "T000278": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001046": {
+      "religion_raw": [
+        "Evangelical Lutheran Church in America",
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S000168": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "Cuban Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Hispanic / Latino"
+      ]
+    },
+    "B001316": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000371": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "P000609": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000305": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000482": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000397": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000450": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "R000622": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001288": {
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "S001172": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "F000462": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000619": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000482": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "U000040": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "K000376": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000601": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001295": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001315": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "H001081": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000481": {
+      "religion_raw": [
+        "Islam"
+      ],
+      "ethnicity_raw": [
+        "Palestinians in the United States"
+      ],
+      "religion": [
+        "Muslim"
+      ],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "G000585": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001212": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001196": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001307": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000602": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000812": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000606": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "G000586": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "W000788": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001303": {
+      "religion_raw": [
+        "Christianity"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "G000598": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M000934": {
+      "religion_raw": [
+        "Methodism",
+        "United Methodist Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M000871": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001231": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "J000289": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "T000250": {
+      "religion_raw": [
+        "Evangelicalism",
+        "Protestant church"
+      ],
+      "ethnicity_raw": [
+        "Norwegian Americans"
+      ],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "C000059": {
+      "religion_raw": [
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001157": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "L000575": {
+      "religion_raw": [
+        "Presbyterianism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001184": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M000312": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "F000471": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "R000620": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S001185": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "M001223": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "V000136": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "A000380": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "D000600": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "J000299": {
+      "religion_raw": [
+        "Southern Baptist Convention"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "S001205": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M000687": {
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "C001039": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "S000148": {
+      "religion_raw": [
+        "Judaism",
+        "Reform Judaism"
+      ],
+      "ethnicity_raw": [
+        "Jewish people"
+      ],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": [
+        "Multiracial / Other"
+      ]
+    },
+    "K000009": {
+      "religion_raw": [
+        "Catholic Church"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "V000130": {
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "M001204": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "D000635": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001324": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "B001292": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "L000562": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "M001213": {
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    }
+  },
+  "governors": {
+    "NY": {
+      "name": "Kathy Hochul",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "GA": {
+      "name": "Brian Kemp",
+      "religion_raw": [
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "CO": {
+      "name": "Jared Polis",
+      "religion_raw": [
+        "Judaism",
+        "Quakers"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "WV": {
+      "name": "Patrick Morrisey",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "WA": {
+      "name": "Bob Ferguson",
+      "religion_raw": [
+        "Catholicism",
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "OH": {
+      "name": "Mike DeWine",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "ID": {
+      "name": "Brad Little",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "RI": {
+      "name": "Daniel McKee",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "TX": {
+      "name": "Greg Abbott",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "MT": {
+      "name": "Greg Gianforte",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "MI": {
+      "name": "Gretchen Whitmer",
+      "religion_raw": [
+        "Christianity"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "SC": {
+      "name": "Henry McMaster",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "IL": {
+      "name": "JB Pritzker",
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "PA": {
+      "name": "Josh Shapiro",
+      "religion_raw": [
+        "Conservative Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "WY": {
+      "name": "Mark Gordon",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "MS": {
+      "name": "Tate Reeves",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "MD": {
+      "name": "Wes Moore",
+      "religion_raw": [],
+      "ethnicity_raw": [
+        "African Americans"
+      ],
+      "religion": [],
+      "ethnicity": [
+        "Black / African American"
+      ]
+    },
+    "SD": {
+      "name": "Larry Rhoden",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "ND": {
+      "name": "Doug Burgum",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "IN": {
+      "name": "Eric Holcomb",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "DE": {
+      "name": "Matt Meyer",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "NV": {
+      "name": "Joe Lombardo",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "OK": {
+      "name": "Kevin Stitt",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "KS": {
+      "name": "Laura Kelly",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "CA": {
+      "name": "Gavin Newsom",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "MO": {
+      "name": "Mike Parson",
+      "religion_raw": [
+        "Methodism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "OR": {
+      "name": "Tina Kotek",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "LA": {
+      "name": "John Bel Edwards",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "CT": {
+      "name": "Ned Lamont",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "MN": {
+      "name": "Tim Walz",
+      "religion_raw": [
+        "Lutheranism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "FL": {
+      "name": "Ron DeSantis",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "NM": {
+      "name": "Michelle Lujan Grisham",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "ME": {
+      "name": "Janet T. Mills",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "NC": {
+      "name": "Josh Stein",
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "AL": {
+      "name": "Kay Ivey",
+      "religion_raw": [
+        "Christianity"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "IA": {
+      "name": "Kim Reynolds",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "VT": {
+      "name": "Phil Scott",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "WI": {
+      "name": "Tony Evers",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "MA": {
+      "name": "Maura Healey",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "UT": {
+      "name": "Spencer Cox",
+      "religion_raw": [
+        "The Church of Jesus Christ of Latter-day Saints"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "AK": {
+      "name": "Mike J. Dunleavy",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "NH": {
+      "name": "Chris Sununu",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "HI": {
+      "name": "Josh Green",
+      "religion_raw": [
+        "Judaism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Jewish"
+      ],
+      "ethnicity": []
+    },
+    "AZ": {
+      "name": "Katie Hobbs",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "KY": {
+      "name": "Andy Beshear",
+      "religion_raw": [
+        "Christian Church (Disciples of Christ)"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "AR": {
+      "name": "Sarah Sanders",
+      "religion_raw": [
+        "Baptists"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "NJ": {
+      "name": "Mikie Sherrill",
+      "religion_raw": [
+        "Catholicism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "VA": {
+      "name": "Abigail Spanberger",
+      "religion_raw": [
+        "Protestantism"
+      ],
+      "ethnicity_raw": [],
+      "religion": [
+        "Christian"
+      ],
+      "ethnicity": []
+    },
+    "TN": {
+      "name": "Bill Lee",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    },
+    "NE": {
+      "name": "Jim Pillen",
+      "religion_raw": [],
+      "ethnicity_raw": [],
+      "religion": [],
+      "ethnicity": []
+    }
+  }
+}
