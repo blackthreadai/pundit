@@ -18,18 +18,23 @@
         <div class="brand">PUNDIT <span class="beta">BETA</span></div>
 
         <section class="control-block">
-          <h3>Layers</h3>
-          <label><input type="checkbox" id="toggle-house" checked /> House</label>
-          <label><input type="checkbox" id="toggle-senate" checked /> Senate</label>
+          <h3>Party Filter</h3>
+          <div class="party-scale-labels">
+            <span>Democrat</span>
+            <span id="party-mode-label">Both</span>
+            <span>Republican</span>
+          </div>
+          <input id="party-slider" class="party-slider" type="range" min="0" max="2" step="1" value="1" />
         </section>
 
         <section class="control-block">
-          <h3>Party</h3>
-          <label><input type="checkbox" id="toggle-dem" checked /> <span class="dot blue"></span> Democrat</label>
-          <label><input type="checkbox" id="toggle-rep" checked /> <span class="dot red"></span> Republican</label>
+          <h3>Layers</h3>
+          <label><input type="checkbox" id="toggle-house" checked /> House of Representatives</label>
+          <label><input type="checkbox" id="toggle-senate" checked /> United States Senate</label>
+          <label><input type="checkbox" id="toggle-governors" checked /> State Governors</label>
         </section>
 
-        <div class="status" id="status">Loading congressional data...</div>
+        <div class="status" id="status">Loading congressional + governors data...</div>
       </aside>
 
       <main id="map" aria-label="United States congressional map"></main>

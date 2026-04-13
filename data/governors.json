@@ -1,0 +1,407 @@
+{
+  "generated_at": "2026-04-13T22:20:53.453588Z",
+  "source": "Wikidata P6 statements for U.S. states",
+  "count": 50,
+  "governors": [
+    {
+      "state": "Alabama",
+      "state_abbr": "AL",
+      "name": "Kay Ivey",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2017-04-10"
+    },
+    {
+      "state": "Alaska",
+      "state_abbr": "AK",
+      "name": "Mike J. Dunleavy",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2018-12-03"
+    },
+    {
+      "state": "Arizona",
+      "state_abbr": "AZ",
+      "name": "Katie Hobbs",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2023-01-02"
+    },
+    {
+      "state": "Arkansas",
+      "state_abbr": "AR",
+      "name": "Sarah Sanders",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2023-01-10"
+    },
+    {
+      "state": "California",
+      "state_abbr": "CA",
+      "name": "Gavin Newsom",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-07"
+    },
+    {
+      "state": "Colorado",
+      "state_abbr": "CO",
+      "name": "Jared Polis",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-08"
+    },
+    {
+      "state": "Connecticut",
+      "state_abbr": "CT",
+      "name": "Ned Lamont",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-09"
+    },
+    {
+      "state": "Delaware",
+      "state_abbr": "DE",
+      "name": "Matt Meyer",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2025-01-21"
+    },
+    {
+      "state": "Florida",
+      "state_abbr": "FL",
+      "name": "Ron DeSantis",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2019-01-08"
+    },
+    {
+      "state": "Georgia",
+      "state_abbr": "GA",
+      "name": "Brian Kemp",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2019-01-14"
+    },
+    {
+      "state": "Hawaii",
+      "state_abbr": "HI",
+      "name": "Josh Green",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2022-12-05"
+    },
+    {
+      "state": "Idaho",
+      "state_abbr": "ID",
+      "name": "Brad Little",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2019-01-07"
+    },
+    {
+      "state": "Illinois",
+      "state_abbr": "IL",
+      "name": "JB Pritzker",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-14"
+    },
+    {
+      "state": "Indiana",
+      "state_abbr": "IN",
+      "name": "Eric Holcomb",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2017-01-09"
+    },
+    {
+      "state": "Iowa",
+      "state_abbr": "IA",
+      "name": "Kim Reynolds",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2017-05-24"
+    },
+    {
+      "state": "Kansas",
+      "state_abbr": "KS",
+      "name": "Laura Kelly",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-14"
+    },
+    {
+      "state": "Kentucky",
+      "state_abbr": "KY",
+      "name": "Andy Beshear",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-12-10"
+    },
+    {
+      "state": "Louisiana",
+      "state_abbr": "LA",
+      "name": "Jeff Landry",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2024-01-08"
+    },
+    {
+      "state": "Maine",
+      "state_abbr": "ME",
+      "name": "Janet T. Mills",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-02"
+    },
+    {
+      "state": "Maryland",
+      "state_abbr": "MD",
+      "name": "Wes Moore",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2023-01-18"
+    },
+    {
+      "state": "Massachusetts",
+      "state_abbr": "MA",
+      "name": "Maura Healey",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2023-01-05"
+    },
+    {
+      "state": "Michigan",
+      "state_abbr": "MI",
+      "name": "Gretchen Whitmer",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-01"
+    },
+    {
+      "state": "Minnesota",
+      "state_abbr": "MN",
+      "name": "Tim Walz",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-07"
+    },
+    {
+      "state": "Mississippi",
+      "state_abbr": "MS",
+      "name": "Tate Reeves",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2020-01-14"
+    },
+    {
+      "state": "Missouri",
+      "state_abbr": "MO",
+      "name": "Mike Kehoe",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2025-01-13"
+    },
+    {
+      "state": "Montana",
+      "state_abbr": "MT",
+      "name": "Greg Gianforte",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2021-01-04"
+    },
+    {
+      "state": "Nebraska",
+      "state_abbr": "NE",
+      "name": "Jim Pillen",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2023-01-05"
+    },
+    {
+      "state": "Nevada",
+      "state_abbr": "NV",
+      "name": "Joe Lombardo",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2023-01-02"
+    },
+    {
+      "state": "New Hampshire",
+      "state_abbr": "NH",
+      "name": "Chris Sununu",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2017-01-05"
+    },
+    {
+      "state": "New Jersey",
+      "state_abbr": "NJ",
+      "name": "Mikie Sherrill",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2026-01-20"
+    },
+    {
+      "state": "New Mexico",
+      "state_abbr": "NM",
+      "name": "Michelle Lujan Grisham",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-01"
+    },
+    {
+      "state": "New York",
+      "state_abbr": "NY",
+      "name": "Kathy Hochul",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2021-08-24"
+    },
+    {
+      "state": "North Carolina",
+      "state_abbr": "NC",
+      "name": "Josh Stein",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2025-01-01"
+    },
+    {
+      "state": "North Dakota",
+      "state_abbr": "ND",
+      "name": "Doug Burgum",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2016-12-15"
+    },
+    {
+      "state": "Ohio",
+      "state_abbr": "OH",
+      "name": "Mike DeWine",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2019-01-14"
+    },
+    {
+      "state": "Oklahoma",
+      "state_abbr": "OK",
+      "name": "Kevin Stitt",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2019-01-14"
+    },
+    {
+      "state": "Oregon",
+      "state_abbr": "OR",
+      "name": "Tina Kotek",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2023-01-09"
+    },
+    {
+      "state": "Pennsylvania",
+      "state_abbr": "PA",
+      "name": "Josh Shapiro",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2023-01-17"
+    },
+    {
+      "state": "Rhode Island",
+      "state_abbr": "RI",
+      "name": "Daniel McKee",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2021-03-02"
+    },
+    {
+      "state": "South Carolina",
+      "state_abbr": "SC",
+      "name": "Henry McMaster",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2017-01-24"
+    },
+    {
+      "state": "South Dakota",
+      "state_abbr": "SD",
+      "name": "Larry Rhoden",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2025-01-05"
+    },
+    {
+      "state": "Tennessee",
+      "state_abbr": "TN",
+      "name": "Bill Lee",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2019-01-19"
+    },
+    {
+      "state": "Texas",
+      "state_abbr": "TX",
+      "name": "Greg Abbott",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2015-01-20"
+    },
+    {
+      "state": "Utah",
+      "state_abbr": "UT",
+      "name": "Spencer Cox",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2021-01-04"
+    },
+    {
+      "state": "Vermont",
+      "state_abbr": "VT",
+      "name": "Phil Scott",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2017-01-06"
+    },
+    {
+      "state": "Virginia",
+      "state_abbr": "VA",
+      "name": "Abigail Spanberger",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2026-01-17"
+    },
+    {
+      "state": "Washington",
+      "state_abbr": "WA",
+      "name": "Bob Ferguson",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2025-01-15"
+    },
+    {
+      "state": "West Virginia",
+      "state_abbr": "WV",
+      "name": "Patrick Morrisey",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2025-01-01"
+    },
+    {
+      "state": "Wisconsin",
+      "state_abbr": "WI",
+      "name": "Tony Evers",
+      "party": "Democrat",
+      "party_raw": "Democratic Party",
+      "start_date": "2019-01-07"
+    },
+    {
+      "state": "Wyoming",
+      "state_abbr": "WY",
+      "name": "Mark Gordon",
+      "party": "Republican",
+      "party_raw": "Republican Party",
+      "start_date": "2019-01-07"
+    }
+  ]
+}
